@@ -1,0 +1,68 @@
+.table-container {
+  margin: 40px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.table-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #f4f4f4;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.btn {
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  margin-right: 6px;
+}
+
+
+.btn.lock{
+    background-color:#f32121;
+    color:white;
+}
+
+.btn.unlock{
+    background-color:blue;
+    color:white;
+}
+.btn.edit {
+  background-color: #2196f3;
+  color: white;
+}
+
+.btn.save {
+  background-color: #4caf50;
+  color: white;
+}
+
+.btn.cancel {
+  background-color: #e0e0e0;
+}

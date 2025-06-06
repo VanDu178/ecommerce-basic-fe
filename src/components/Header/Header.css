@@ -1,0 +1,70 @@
+/* Phần đã có */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #74c365;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.nav a {
+  margin-left: 1.5rem;
+  color: white;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.cart {
+  font-size: 1.3rem;
+}
+
+.user-icon {
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin-left: 1.5rem;
+}
+
+/* Dropdown */
+.user-dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 2.5rem;
+  background-color: white;
+  color: #333;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  min-width: 150px;
+  z-index: 100;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 0.75rem 1rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.dropdown-menu a:hover {
+  background-color: #f2f2f2;
+}
